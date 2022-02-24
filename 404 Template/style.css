@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+     font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+main{
+    width: 90%;
+    max-width: 450px;
+}
+
+.main-text{
+    font-size: 5rem;
+    margin: 1.2rem auto;
+    color: rgb(48, 48, 48);
+}
+
+.sec-txt{
+    font-size: 2rem;
+    margin: 0 auto;
+    color: rgb(62, 63, 63);
+}
+
+.disc-txt{
+    color: rgb(123, 126, 126);
+}
