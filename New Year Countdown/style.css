@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto Serif', sans-serif;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: url(./tree.jpg);
+    background-repeat: no-repeat;
+    background-size:auto;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    text-align: center;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center; 
+   margin: 10rem auto;
+   padding: 0 2rem;
+}
+
+.box{
+    display: flex; 
+     backdrop-filter: blur(1px);
+     border-radius: 20%;
+}
+
+.time{
+    margin: 1rem 2rem;
+}
+
+@media (max-width: 500px) {
+    .time{
+        margin: auto 10px;
+
+    }
+    .time h1{
+        font-size: 2rem;
+    }
+    .time h3{
+font-size: .9rem;
+    }
+}
+
+@media (min-width: 1025px){
+    .time{
+        margin: auto 80px;
+
+    }
+    .time h1{
+        font-size: 5rem;
+    }
+    .time h3{
+font-size: 2rem;
+    }
+    .hText{
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 1450px){
+    .time{
+        margin: auto 100px;
+
+    }
+    .time h1{
+        font-size: 7rem;
+    }
+    .time h3{
+font-size: 3rem;
+    }
+    .hText{
+        font-size: 5rem;
+    }
+}
