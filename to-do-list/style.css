@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+    background-color: beige;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 30rem;
+    background-color: white;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    justify-content: flex-start;
+}
+
+.tasks {
+    width: 100%;
+    text-align: left;
+    margin: 2rem auto;
+}
+
+.task{
+    width: 100%;
+    margin: .5rem 0;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.taskText{
+    font-size: 1.2rem;
+
+}
