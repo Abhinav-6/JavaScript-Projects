@@ -1,8 +1,12 @@
 console.log("Namaste TypeScrit")
 
-function add(n1:number,n2:number) :number{
-    return n1+n2;
+function add(n1:number,n2:number, showPhrase: boolean, phrase: string){
+    if(showPhrase){
+        var result:number = n1 + n2;
+        console.log(phrase + result)
+    }
 }
 
-var result:number = add(5,8)
-console.log(result);
+var printResult : boolean = true
+var resultPhrase:string = "The Result : "
+add(5,12,printResult,resultPhrase)
